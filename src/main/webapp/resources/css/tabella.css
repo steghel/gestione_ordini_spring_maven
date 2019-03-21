@@ -1,0 +1,160 @@
+/* 
+    Document   : tabella
+    Created on : 30-apr-2012, 16.20.01
+    Author     : sgh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/***************************************************/
+            /* CSS FUNZIONANTI:TOLGONO LA SCROLLBAR orizzontale */
+            /********************************************************/ 
+            /*
+            .tabellauno th#header1, .tabellauno th#header2, .tabellauno th#header3, .tabellauno th#header4, .tabellauno th#header5 {
+                padding-left: 0.5em;
+                text-align: left;
+                width: 220px;
+            }
+            .tabellauno {
+                width: 1100px;
+            }
+            .tabellauno td {
+                text-align: left;
+            }
+            .tabelladue td {
+                width: 220px;
+            }
+            .divinterno {
+                height: 7em;
+                overflow: auto;
+            }
+            /*************************************************************/
+            
+            
+            /***************************************************/
+            /* CSS FUNZIONANTI:TOLGONO LA SCROLLBAR orizzontale e creano la tabella
+            problema: tabella molto grande*/
+            /******************************************************/
+            /*
+            html, body {
+                color: #000000;
+                font-family: 'trebuchet ms',verdana,arial,helvetica,sans-serif;
+                font-size: 100%;
+                margin: 0;
+                text-align: center;
+            }
+            .bold {
+                font-weight: bold;
+            }
+            .tabellauno th#header1, .tabellauno th#header2, .tabellauno th#header3, .tabellauno th#header4, .tabellauno th#header5, .tabellauno th#header6, .tabellauno th#header7, .tabellauno th#header8, .tabellauno th#header9, .tabellauno th#header10, .tabellauno th#header11 {
+                padding-left: 0.5em;
+                text-align: left;
+                width: 220px;
+            }
+            .tabellauno {
+                background: none repeat scroll 0 0 #00A3DD;
+                color: #FFFFFF;
+                margin: 0 auto;
+                padding: 0;
+                width: 1100px;
+            }
+            .tabellauno caption {
+                background: none repeat scroll 0 0 #FFFFFF;
+                color: #000000;
+                font-size: 1.2em;
+                margin: 0 auto;
+            }
+            .tabellauno tbody {
+                background: none repeat scroll 0 0 #88AA99;
+                color: #000000;
+            }
+            .tabellauno td {
+                text-align: left;
+            }
+            .tabelladue {
+                background: none repeat scroll 0 0 transparent;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+                table-layout: fixed;
+                
+            }
+            .tabelladue td {
+                background: none repeat scroll 0 0 #E5E5E5;
+                color: #000000;
+                padding-left: 10px;
+                width: 220px;
+                overflow: hidden;
+            }
+            .tabelladue tr.colorata td {
+                background: none repeat scroll 0 0 #CCCCCC;
+                color: #000000;
+            }
+            .divinterno {
+                height: 7em;
+                overflow:  auto;
+            }*/
+   
+
+           .contenitoreTabella {
+                /*color: #000000;*/
+                font-family: 'trebuchet ms',verdana,arial,helvetica,sans-serif;
+                font-size: 14px;
+                padding-top: 10em;
+                margin: 0;
+                text-align: center;
+            }
+            
+            .tabellauno th#header1, .tabellauno th#header2, .tabellauno th#header3, .tabellauno th#header4, .tabellauno th#header5, .tabellauno th#header6, .tabellauno th#header7, .tabellauno th#header8, .tabellauno th#header9, .tabellauno th#header10, .tabellauno th#header11 {
+                padding-left: 0.5em;
+                text-align: left;
+                
+                
+                
+            }
+            .tabellauno {
+                background: none repeat scroll 0 0 #d1510d;
+                color: #FFFFFF;
+                border:solid 4px black;
+                
+                
+            }
+            
+            .tabellauno tbody {
+                background: none repeat scroll 0 0 #black;
+                color: #000000;
+            }
+            .tabellauno td {
+                text-align: left;
+            }
+            
+            .tabelladue{
+                background:white;
+                color: black;
+                border:solid 1px black;
+                border-collapse: collapse; 
+                
+                
+            }
+            
+            .tabelladue td {
+                background: none repeat scroll 0 0 #white;
+                color: #000000;
+                
+                border: solid 2px black ;
+                /*padding-left: 10px;*/
+               
+                overflow: hidden;
+                text-align: center;
+            }
+            
+            .divinterno {
+                height: 10em;
+                overflow:  auto;
+            }
+            
+            .divInternoCella{ /*uso un div per dare una dimensione MAX a td e th*/
+              
+              overflow: hidden;
+              
+            }
